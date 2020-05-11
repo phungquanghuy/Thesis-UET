@@ -8,4 +8,4 @@ class GetWayNode(osm.SimpleHandler):
     # Lấy nodes biển báo có tag maxspeed       
     def node(self, n):
         if "maxspeed" in n.tags:
-            self.sign_nodes.append(n)
+            self.sign_nodes.append({'id': n.id, 'maxspeed': n.tags.get('maxspeed')})

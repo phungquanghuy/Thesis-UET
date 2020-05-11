@@ -14260,7 +14260,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="116434428" version="29" timestamp="2020-04-16T15:08:16Z" uid="10831035" user="HuyPQ" changeset="83655927">
+  <way id="116434428" version="29" timestamp="2020-04-16T15:08:16Z" uid="10831035" changeset="83655927">
     <nd ref="1221130550"/>
     <nd ref="1221130545"/>
     <nd ref="6624973476"/>
@@ -14294,6 +14294,7 @@
     <tag k="name" v="Xuân Thủy"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="50"/>
   </way>
   <way id="136247700" version="1" timestamp="2011-11-08T02:45:17Z" uid="47976" user="ninomax" changeset="9770411">
     <nd ref="1494906379"/>
@@ -17631,11 +17632,12 @@
     <tag k="highway" v="primary_link"/>
     <tag k="oneway" v="yes"/>
   </way>
-  <way id="221160174" version="7" timestamp="2019-12-14T13:35:41Z" uid="2678766" user="Hieu Van" changeset="78407913">
+  <way id="221160174" version="7" timestamp="2019-12-14T13:35:41Z" uid="2678766" changeset="78407913">
     <nd ref="2302158753"/>
     <nd ref="2302158752"/>
     <tag k="highway" v="primary_link"/>
     <tag k="oneway" v="yes"/>
+    <tag k="maxspeed" v="50"/>
   </way>
   <way id="221160677" version="4" timestamp="2018-07-08T06:12:57Z" uid="8407473" user="Mai Ngọc Xuân" changeset="60502113">
     <nd ref="2302162882"/>
@@ -24377,7 +24379,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="600552899" version="2" timestamp="2019-07-17T20:15:04Z" uid="9564561" user="MTBdude" changeset="72363959">
+  <way id="600552899" version="2" timestamp="2019-07-17T20:15:04Z" uid="9564561" changeset="72363959">
     <nd ref="5710318136"/>
     <nd ref="6624973479"/>
     <nd ref="6624973483"/>
@@ -24388,6 +24390,7 @@
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="50"/>
   </way>
   <way id="600552900" version="2" timestamp="2020-03-25T11:08:34Z" uid="10936819" user="PQ Anh" changeset="82609285">
     <nd ref="5710247302"/>
@@ -26840,7 +26843,7 @@
     <tag k="source" v="grab_hanoi_2018_t2"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="688303166" version="14" timestamp="2020-04-16T15:08:16Z" uid="10831035" user="HuyPQ" changeset="83655927">
+  <way id="688303166" version="14" timestamp="2020-04-16T15:08:16Z" uid="10831035" changeset="83655927">
     <nd ref="1696156947"/>
     <nd ref="2302158752"/>
     <nd ref="5710129779"/>
@@ -26879,6 +26882,7 @@
     <tag k="name" v="Xuân Thủy"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="50"/>
   </way>
   <way id="688367679" version="2" timestamp="2019-07-31T21:16:36Z" uid="9564482" user="TheMineralCartographer" changeset="72873397">
     <nd ref="5721473953"/>
@@ -27317,7 +27321,7 @@
     <tag k="name" v="Phố Dịch Vọng Hậu"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="709804807" version="1" timestamp="2019-08-01T21:36:51Z" uid="9965337" user="ReedtheRiver" changeset="72915847">
+  <way id="709804807" version="1" timestamp="2019-08-01T21:36:51Z" uid="9965337" changeset="72915847">
     <nd ref="1696156950"/>
     <nd ref="6624973482"/>
     <nd ref="5710318139"/>
@@ -27326,6 +27330,7 @@
     <tag k="name" v="Phố Trần Thái Tông"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="50"/>
   </way>
   <way id="709804808" version="1" timestamp="2019-08-01T21:36:51Z" uid="9965337" user="ReedtheRiver" changeset="72915847">
     <nd ref="1691398073"/>
@@ -27338,7 +27343,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="709804809" version="1" timestamp="2019-08-01T21:36:51Z" uid="9965337" user="ReedtheRiver" changeset="72915847">
+  <way id="709804809" version="1" timestamp="2019-08-01T21:36:51Z" uid="9965337" changeset="72915847">
     <nd ref="5710318139"/>
     <nd ref="5710318140"/>
     <nd ref="1221130542"/>
@@ -27348,6 +27353,7 @@
     <tag k="name" v="Phố Trần Thái Tông"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="50"/>
   </way>
   <way id="709804810" version="2" timestamp="2020-02-27T08:39:54Z" uid="10831035" user="HuyPQ" changeset="81538914">
     <nd ref="5710551792"/>

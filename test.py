@@ -6,12 +6,12 @@ class StreetNormalizer(osm.SimpleHandler):
     def __init__(self):
         super(StreetNormalizer, self).__init__()
         self.node = get_node.GetWayNode()
-        # self.node.apply_file("VN.osm")
+        self.node.apply_file("VN.osm")
 
         # list các id đường + các node kèm theo
         # self.street_nodes = self.get_node.street_nodes
         # list các nodes biển báo 
-        self.sign_nodes = self.node.sign_nodes
+        self.signs = self.node.sign_nodes
 
     def add_tag(self, o):
         # new tags should be kept in a list so that the order is preserved
@@ -27,10 +27,9 @@ class StreetNormalizer(osm.SimpleHandler):
         for n in o.nodes:
             temp.append(n.ref)
         
-        for sign in self.sign_nodes:
-            print(sign)
-            if sign.id in temp and not "maxspeed" in o.tags:
-                newtags.append(("maxspeed", sign.tags.get("maxspeed")))
+        for sign in self.signs:
+            if sign['id'] in temp and not "maxspeed" in o.tags:
+                newtags.append(("maxspeed", sign['maxspeed']))
                 modified = True
 
         if modified:
